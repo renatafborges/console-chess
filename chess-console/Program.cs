@@ -1,3 +1,18 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using System;
+using board;
+using Microsoft.VisualBasic.FileIO;
 
-Console.WriteLine("Hello, World!");
+namespace chess_console
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Position P;
+            P = new Position(3, 4);
+            Console.WriteLine("Position " + P);
+
+            Console.ReadLine();
+        }
+    }
+}
